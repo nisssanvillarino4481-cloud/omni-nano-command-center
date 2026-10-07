@@ -1,0 +1,12 @@
+{
+  "name": "omni-nano-command-center",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Omni Nano Command Center web app",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "build": "node -e \"console.log('Build step not required for this app')\"",
+    "test": "node -e \"console.log('No tests configured')\""
+  }
+}
