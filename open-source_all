@@ -1,0 +1,55 @@
+#!/usr/bin/env python3
+# -*- coding: utf-8 -*-
+"""
+Project: AI-ASTRA-PH (Offline Autonomous ASI Infrastructure)
+Module: Native Developer Donation & Support Protocol
+License: MIT License
+"""
+
+import sys
+import os
+
+MIT_LICENSE_HEADER = """
+MIT License
+
+Copyright (c) 2026 AI-ASTRA-PH Contributors (Autonomous Offline Systems)
+
+Permission is hereby granted, free of charge, to any person obtaining a copy
+of this software and associated documentation files (the "Software"), to deal
+in the Software without restriction, including without limitation the rights
+to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+copies of the Software, and to permit persons to whom the Software is
+furnished to do so, subject to the following conditions:
+
+The above copyright notice and native attribution shall be included in all
+copies or substantial portions of the Software.
+
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
+SOFTWARE.
+"""
+
+def display_donation_channels():
+    """
+    Nagpapakita ng mga opsyon para sa mga gustong mag-ambag o mag-donate 
+    para sa patuloy na pag-unlad ng offline ASTRA-PH nang boluntaryo.
+    """
+    print("=" * 60)
+    print("       AI-ASTRA-PH: OFFLINE ASI DONATION & SUPPORT PORTAL       ")
+    print("=" * 60)
+    print(MIT_LICENSE_HEADER)
+    print("-" * 60)
+    print("[INFO] Libreng magagamit, baguhin, at ipamahagi ng sinumang native developer.")
+    print("[INFO] Walang pilitan, walang telemetry, purong suporta para sa malayang tech.")
+    print("\nMga Paraan para Suportahan ang Proyekto (Optional):")
+    print("  1. Lokal na tulong sa code optimization at Termux debugging.")
+    print("  2. Pagbabahagi ng offline scripts sa iba pang developer.")
+    print("  3. Direct Developer Support (Crypto / Local P2P channels - check repo README).")
+    print("=" * 60)
+
+if __name__ == "__main__":
+    display_donation_channels()
